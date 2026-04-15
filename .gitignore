@@ -38,4 +38,4 @@ test_tripadvisor.py
 # ── Old root-level files (replaced by backend/ and frontend/) ──
 ai-trip-frontend/
 venv/
-requirements.txt
+/requirements.txt
