@@ -2,14 +2,14 @@
 
 An AI travel planning app that generates personalized day-by-day itineraries with real weather forecasts, destination photos, cost estimates, and live exchange rates.
 
-**Live App:** [ai-trip-frontend.vercel.app](https://ai-trip-frontend.vercel.app)
+**Live App:** [smart-travel-designer.vercel.app](https://smart-travel-designer.vercel.app/)
 
 ---
 
 ## Project Structure
 
 ```
-ai-trip-planner/
+smart-travel-designer/
 ├── backend/                  ← FastAPI (Python) — deployed on Render
 │   ├── app/
 │   │   ├── core/             ← Config and logging
@@ -120,5 +120,5 @@ App available at `http://localhost:3000`
 
 ## Deployment
 
-- **Frontend** — connected to Vercel via the `ai-trip-frontend` GitHub repository. Auto-deploys on push to `main`.
-- **Backend** — connected to Render via the `ai-trip-backend` GitHub repository. Auto-deploys on push to `main`. Set all environment variables (including `ALLOWED_ORIGINS`) in the Render dashboard.
+- **Frontend** — connected to Vercel via the `smart-travel-designer/frontend` GitHub repository. Auto-deploys on push to `main`.
+- **Backend** — connected to Render via the `smart-travel-designer/backend` GitHub repository. Auto-deploys on push to `main`. Set all environment variables (including `ALLOWED_ORIGINS`) in the Render dashboard.
